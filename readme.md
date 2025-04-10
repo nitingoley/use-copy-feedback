@@ -84,4 +84,4 @@ If you like this package, consider starring it 🙌
 bash
 Copy
 Edit
-git clone https://github.com/your-username/use-copy-feedback
+git clone https://github.com/nitingoley/use-copy-feedback
