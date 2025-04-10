@@ -60,7 +60,7 @@ Please adhere to this project's `code of conduct`.
 
 ## Support
 
-For support, email nitingoley42@gmail.com or join our Slack channel.
+For support, email nitingoley42@gmail.com or connect me  nitin__goley.
 
 ## Usage/Examples
 
