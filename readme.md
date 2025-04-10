@@ -1,36 +1,45 @@
-
 # use-copy-feedback
 
 A lightweight React hook to copy text to clipboard and show instant feedback like “Copied!”.  
 Perfect for buttons, tooltips, toast notifications, and more.
 
-
-[![NPM Version](https://img.shields.io/npm/v/use-copy-feedback.svg)](https://www.npmjs.com/package/use-copy-feedback)  
+[![NPM Version](https://img.shields.io/npm/v/use-copy-feedback.svg)](https://www.npmjs.com/package/use-copy-feedback)
 
 [![License](https://img.shields.io/npm/l/use-copy-feedback.svg)](./LICENSE)
 
+## 🚀 Features
 
-## Features
-
-- ✅ Simple API: Just copy() and copied
-- 🔁 Auto-reset after delay
-- ⚙️ Customizable delay (default: 1500ms)
-- 📦 Super lightweight (zero dependencies)
-- 🧠 Built with React & TypeScript
-
+- ✅ **Simple API** – Just `copy()`, `copied`, `feedbackText`, and optional `reset()`
+- 🕒 **Auto-reset after delay** – Customizable with `timeout` option
+- ⚙️ **Highly customizable**:
+- `successText` – Text shown after successful copy
+- `resetText` – Default text before copying
+- `autoReset` – Disable auto reset and reset manually
+- `onCopy` – Callback after successful copy
+- 🧠 **Built with React & TypeScript** – Strongly typed for better DX
+- 📦 **Zero dependencies** – Native Clipboard API used
+- 🧪 **Supports HTML/Text copy** – Use `format: "text/html"` or `"text/plain"`
+- 🔁 **Manual Reset Option** – Full control over feedback UI
+- 🌐 **Works with JS or TS projects**
 
 ## Installation
 
 npm install use-copy-feedback
+
 # or
+
 yarn add use-copy-feedback
+
 # or
+
 pnpm add use-copy-feedback
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 MIT — Feel free to use, modify & contribute!
+
 ## Badges
 
 Add badges from somewhere like: [shields.io](https://shields.io/)
@@ -38,7 +47,6 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
 
 ## Contributing
 
@@ -48,14 +56,11 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-
 # Hi, I'm Nitingoley! 👋
-
 
 ## Support
 
 For support, email nitingoley42@gmail.com or join our Slack channel.
-
 
 ## Usage/Examples
 
@@ -116,3 +121,4 @@ const styles = {
 };
 
 export default App;
+```
